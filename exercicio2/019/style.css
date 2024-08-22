@@ -85,7 +85,7 @@ ul{
     columns: 2;
 }
 article .centralizado{
-    text-align: center;
+    text-align:right
 }
 footer{
     background-color: black;
