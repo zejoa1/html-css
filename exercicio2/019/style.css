@@ -84,7 +84,7 @@ ul{
     columns: 2;
 }
 article .centralizado{
-    
+    text-align: center;
 }
 footer{
     background-color: black;
