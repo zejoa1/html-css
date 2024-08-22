@@ -1,6 +1,6 @@
 
 @font-face{
-    font-family:dimitri;
+    font-family: 'dimitri'
     src:url(fontes/DIMITRI_.TTF)
 }
 body{
@@ -41,7 +41,7 @@ nav > a:hover{
 }
 h1{
     text-align: center;
-    font-family:'dimitri'
+    font-family: 'dimitri', Courier, monospace;
 
 }
 main h3{
