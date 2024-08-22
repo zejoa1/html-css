@@ -1,9 +1,9 @@
 
-@font-face{
+@font-face
     font-family: 'dimitri'
     src: url(fontes/DIMITRI_.TTF);
     
-}
+
 body{
     font-size: 1em;
     text-align: justify;
