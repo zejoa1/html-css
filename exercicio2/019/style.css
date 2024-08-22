@@ -86,6 +86,9 @@ h4{
 ul{
     columns: 2;
 }
+article .centralizado{
+    text-align: center;
+}
 footer{
     background-color: black;
     color: aliceblue;
