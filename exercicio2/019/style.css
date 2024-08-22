@@ -31,7 +31,7 @@ nav > a{
     padding: 10px 10px 10px 10px;
     color: rgb(167, 212, 156);
     text-decoration: none;
-    margin-right: 50px;
+    margin-right: 15px;
 }
 nav > a:hover{
     background-color: #2cab5ed0;
@@ -82,6 +82,9 @@ h4{
 }
 ul{
     columns: 2;
+}
+article .centralizado{
+    text-align: center;
 }
 footer{
     background-color: black;
