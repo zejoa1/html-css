@@ -62,6 +62,9 @@ main{
 div.imagem{
     text-align: center;    
 }
+main picture{
+    
+}
 iframe{
     display: block;
     margin: auto;
