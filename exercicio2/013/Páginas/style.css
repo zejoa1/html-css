@@ -1,0 +1,10 @@
+body{
+    background-image: linear-gradient(to left,#902828, #fff700);
+    text-align: center;
+}
+h1{
+    color: blueviolet;
+}
+p{
+    background-color: rgb(240, 200, 140);
+}

@@ -1,0 +1,95 @@
+@font-face{
+    font-family: dimitri;
+    src:url(fontes/DIMIS___.TTF)
+}
+body{
+    font-size: 1em;
+    text-align: justify;
+    margin: 0px;
+    background-color: antiquewhite;
+    font-family:Arial, Helvetica, sans-serif
+
+    
+    
+}
+header{
+    padding: 10px 10px 0px 10px;
+    background-image: linear-gradient(to top, #1e5d36, #46da81 )
+    
+}
+header > nav{
+    padding: 20px 10px 10px 10px;
+    margin-top: 10px;
+
+}
+header > p{
+    text-align: center;
+    color: aliceblue;
+}
+nav > a{
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    color: rgb(167, 212, 156);
+    text-decoration: none;
+    margin-right: 50px;
+}
+nav > a:hover{
+    background-color: #2cab5ed0;
+    border-radius: 10px;
+    transition-duration: .5s;
+}
+h1{
+    text-align: center;
+    font-family:'dimitri', Courier, monospace
+
+}
+main h3{
+    background-image:linear-gradient(to right,#89ec7e, transparent)
+}
+
+main{
+    background-color: aliceblue;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+div.imagem{
+    text-align: center;    
+}
+iframe{
+    display: block;
+    margin: auto;
+    width: 100%;
+    height:300px
+    
+}
+main > article{
+    padding: 0px 20px 20px 20px;
+
+}
+aside{
+    background-color: antiquewhite;
+    padding: 0px 20px 20px 20px;
+    border-radius: 10px 10px 10px 10px;
+}    
+h4{
+    background-color: #46da81;
+    padding: 20px 20px 20px 20px;
+    border-radius: 5px 5px 0px 0px;
+    margin: 20px -20px 30px -20px;
+}
+ul{
+    columns: 2;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 8px;
+}
+footer > p{
+    margin: 0px;
+
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incorporação de midia</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <picture>
+        <source media="(max-width:700px )" srcset="memeP.png" type="image/png">
+        <source media="(max-width:1000px )" srcset="memeM.png" type="image/png">
+        <img src="memeG.png" alt="imagem flexivel">
+        
+    </picture>
+    <h1>Áudios Dinâmicos</h1>
+    <audio src="audios/theblackkeys.mp3" preload="metadata" controls></audio><br>
+    <audio preload="metadata" autoplay controls>
+        <source src="audios/measbehaver.mp3" type="audio/mp3">
+    </audio>
+    <h1>Videos Dinâmicos</h1>
+    <video width="500px" controls poster="videos/capa.png">
+        <source src="videos/video.mp4" type="video/mp4">
+        <source src="videos/video-w.webm" type="video/webm">
+        <source src="videos/video-o.ogv" type="video/ogv">
+        <source src="videos/video-mk.mkv" type="video/mkv">
+    </video>
+    <h1>Copiando incorporação de video do youtube</h1>
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=iUfBwPk8eusCO7Gc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</body>
+</html>

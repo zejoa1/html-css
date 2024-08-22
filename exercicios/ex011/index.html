@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas, audios e videos</h1>
+    <p>Tente aumentar o tamanho do navegador para a imagem mudar de tamanho automáticamente.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/memeP.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/memeM.png" type="image/png">
+        <img src="imagens/memeG.png" alt="meme-imagem flexível">
+    </picture>
+    <h1>Audios</h1>
+    <p><strong>Modo fácil</strong> usando a tag &lt;audio&gt; e "controls" para acionar o controle de audio. </p>
+        <audio src="audios/measbehaver.mp3" autoplay controls></audio><br>
+        <audio src="audios/theblackkeys.mp3" controls></audio>
+    <p><Strong>Modo difícil</Strong> usando a tag &lt;audio&gt; seguido de source, com o type de audio.</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="audios/theblackkeys.mp3" type="audio/mpeg">
+    </audio>
+    <p>Seu navegador não suporta audio em source</p>
+    <h1>Videos</h1>
+    <p><strong>Modo fácil</strong> usando a tag &lt;video&gt; podemos adicioinar diretamente usando o visual studio code. </p>
+    <p><strong>Modo difícil</strong> usamos a tag &lt;video&gt; seguido do source, com o type de video, no exemplo adicionei webm,mkv,ogv e mp4 nessa mesma ordem. </p>
+    <video width="700" controls poster="videos/capa.png" loop>
+       <source src="videos/video-w.webm" type="video/webm">
+       <source src="videos/video-mk.mkv" type="video/mkv">
+       <source src="videos/video-o.ogv" type="video/ogv">
+       <source src="videos/video.mp4" type="video/mp4">
+    </video>
+    <p>OBS: Adicionei junto a tag de abertura funções como controls para adicionar os controles referentes aos arquivos(play, pause, linha do tempo) width para tamanho de video e poster para adicionar a capa do video e o loop. </p>
+    <h1>Adicionando videos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/uIDzmw0SsmI?si=K-KVv_XOj9EEkjSp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>

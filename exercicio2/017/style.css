@@ -1,0 +1,27 @@
+@charset "UTF-8"
+body{
+    background-color: beige;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div>p{
+    display: none;
+    font-size: large;
+    
+}
+div:hover>p{
+    display: block;
+    background-color: aquamarine;
+}
+div{
+    display: inline-block;
+    background-color: rgb(250, 116, 116);
+    height: 200px;
+    width: 200px;
+
+}
+div:hover{
+    background-color: blueviolet;
+}
+p{
+    font-size: 20px;
+}

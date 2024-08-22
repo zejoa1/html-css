@@ -1,0 +1,25 @@
+
+body{
+    background-image: linear-gradient(to left, #f2d891, #ffad55);
+}
+main{
+    margin: auto;
+    background-color: aliceblue;
+    width: 600px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #83592b;
+}
+h1{
+    color: #000000;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+h2{
+    color: rgb(89, 25, 25);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    text-align: justify;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
