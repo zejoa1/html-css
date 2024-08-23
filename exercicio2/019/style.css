@@ -62,9 +62,13 @@ main{
 div.imagem{
     text-align: center;    
 }
-main picture{
+main picture img{
+    justify-content: center;
+    min-width: 320px;
+    max-width: 750px;
     
 }
+
 iframe{
     display: block;
     margin: auto;
