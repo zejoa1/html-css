@@ -64,8 +64,7 @@ div.imagem{
 }
 main picture img{
     justify-content: center;
-    min-width: 320px;
-    max-width: 750px;
+    width: 100%;
     
 }
 
