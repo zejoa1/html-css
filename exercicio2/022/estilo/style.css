@@ -40,14 +40,14 @@ header p > a:hover{
     background-color: bisque;
     padding-top: 200px;
     padding-bottom: 200px;
-    padding-left: 100px;
+    padding-left: 50px;
 
 }
 .imagem{
     background-color: #5f5f5f;
     padding-top: 200px;
     padding-bottom: 200px;
-    padding-left: 100px;
+    padding-left: 50px;
     box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.563);
 }
 section{
