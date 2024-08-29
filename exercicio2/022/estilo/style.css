@@ -53,6 +53,9 @@ header p > a:hover{
 section{
     font-family: var(--font02);
 }
+section p {
+    margin-bottom: 20px;
+}
  #img01{
     background-image: url(../imagens/background001.jpg);
     background-position: right bottom;
