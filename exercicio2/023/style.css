@@ -1,0 +1,37 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+caption{
+    background-color: rgb(97, 85, 108);
+    color: aliceblue;
+    padding: 15px;
+    font-weight: bold;
+}
+table{
+    border-collapse: collapse;
+    position: relative;
+
+}
+tr:nth-child(even){
+    background-color: lightskyblue;
+}
+td, th {
+    border: 1px solid black;
+    padding: 15px;
+}
+.num{
+    text-align: right;
+}
+thead{
+    background-color: rgb(196, 166, 224);
+    position: sticky;
+    top: -1%;
+}
+tfoot{
+    background-color:rgb(196, 166, 224);
+}
+tfoot> tr> td{
+    font-weight: bold;
+
+}
