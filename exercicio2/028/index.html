@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fómulário</title>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="inome">Nome:</label> 
+            <input type="text" name="nome" id="inome" required size="26" placeholder="Nome completo">
+        </p>
+        <p>
+            <label for="inota">nota da prova:</label>
+            <input type="number" name="nota" id="inota" size="6" max="10" min="0" step=".1">
+        </p>
+        <p>
+            <label for="iusu">Usuário:</label>
+            <input type="text" name="usu" id="iusu" required size="15" >
+        </p>
+        <p>
+            <label for="isen">Senha</label>
+            <input type="password" name="sen" id="isen" required size="15" maxlength="15" minlength="8" autocomplete="current-password">
+        </p>
+        <p>
+            <label for="iano">Data de nascimento</label required>
+            <input type="date" name="ano" id="iano" autocomplete="bday-year">
+        </p>
+        <p>
+            <label for="imes">Mês da prova</label>
+            <input type="month" name="mes" id="imes" required >
+        </p>
+        <p>
+            <label for="ihr">hora da prova</label>
+            <input type="time" name="hr" id="ihr" required>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar Tudo">
+        </p>
+        <p>
+            <input type="color" name="" id="">
+        </p>
+        <p>
+            <input type="week" name="" id="">
+        </p>
+        <p>
+            <input type="button" value="olá">
+        </p>
+        <p>
+            <input type="checkbox" name="" id="">
+        </p>
+        <p>
+            <input type="email" name="" id="">
+        </p>
+        <p>
+            <input type="radio" name="" id="">
+        </p>
+    </form>
+    
+</body>
+</html>
