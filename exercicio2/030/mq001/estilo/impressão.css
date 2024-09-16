@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/*Para Impressão*/
+
+html, body{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+menu{
+    display: none;
+}
+
+article::after{
+    content: "Conteúdo do Site do José João";
+}
