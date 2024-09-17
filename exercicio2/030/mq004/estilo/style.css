@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@media print {
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    #print{display: none;}
+    #phone{display: none;}
+    #tablet{display: block;}
+    #laptop{display: none;}
+    #pc{display: none;}
+    #tv{display: none;}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    #print{display: none;}
+    #phone{display: none;}
+    #tablet{display: none;}
+    #laptop{display: none;}
+    #pc{display: block;}
+    #tv{display: none;}
+}
+@media screen and (min-width: 1200px){
+    #print{display: none;}
+    #phone{display: none;}
+    #tablet{display: none;}
+    #laptop{display: none;}
+    #pc{display: none;}
+    #tv{display: block;}
+}

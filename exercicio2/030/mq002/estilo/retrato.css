@@ -1,2 +1,6 @@
 @charset "UTF-8";
 /*em pé portrait*/
+
+body{
+    background-image: url('../imagens/cev-portrait.jpg');
+}
