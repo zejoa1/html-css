@@ -1,10 +1,31 @@
 @charset "UTF-8";
 
 @media print {
-    
+    body{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    main{
+        border: 1px solid black;
+    }
+    main::after{
+        content: Conteúdo para impressão por Z;
+    }
+    #print{display: block;}
+    #phone{display: none;}
+    #tablet{display: none;}
+    #laptop{display: none;}
+    #pc{display: none;}
+    #tv{display: none;}
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
+    body{
+        background-image: url('../imagens/back-tablet.jpg');
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
     #print{display: none;}
     #phone{display: none;}
     #tablet{display: block;}
@@ -14,14 +35,28 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+    body{
+        background-image: url('../imagens/back-laptop.jpg');
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
     #print{display: none;}
     #phone{display: none;}
     #tablet{display: none;}
-    #laptop{display: block;}
+    #laptop{display: block; width: 150px;}
     #pc{display: none;}
     #tv{display: none;}
 }
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
+    body{
+        background-image: url('../imagens/back-pc.jpg');
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
     #print{display: none;}
     #phone{display: none;}
     #tablet{display: none;}
@@ -30,6 +65,13 @@
     #tv{display: none;}
 }
 @media screen and (min-width: 1201px) {
+    body{
+        background-image: url('../imagens/back-tv.jpg');
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
     #print{display: none;}
     #phone{display: none;}
     #tablet{display: none;}
