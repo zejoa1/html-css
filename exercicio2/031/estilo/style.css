@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: rgb(18, 102, 35);
+}
+header > h1{
+    color: aliceblue;
+    text-align: center;
+    padding: 40px;
+}
+header > menu {
+    display: block;
+    
+}
+header > menu > ul{
+    
+}
+header > menu > ul > li{
+    text-align: center;
+    border: 1px solid rgba(18, 54, 25, 0.501);
+}
+header > menu > ul > li > a{
+    color: aliceblue;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    margin: 0px;
+
+}
+header > menu > ul > li > a:hover{
+    background-color: rgb(60, 124, 102);
+}
