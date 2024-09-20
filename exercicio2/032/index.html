@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section id="imagem">
+            <iframe src="imagem.html" frameborder="0"></iframe>
+        </section>
+        <section id="login">
+            <h1>Seu Login</h1>
+            <form action="cadastro.php" autocomplete="on">
+                <label for="iname">Nome:</label>
+                <input type="text" name="name" id="iname" required minlength="5" maxlength="20" autocomplete="username"><br>
+                <label for="isen">Senha:</label>
+                <input type="password" name="sen" id="isen" required minlength="8" maxlength="20" autocomplete="current-password"><br>
+                <input type="submit" id="enviar" value="Enviar">
+            </form>
+            
+        </section>
+    </main>
+    
+</body>
+</html>
